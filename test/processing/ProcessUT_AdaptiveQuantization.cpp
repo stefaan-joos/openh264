@@ -13,7 +13,7 @@ using namespace WelsVP;
 
 static void FillWithRandomData (uint8_t* p, int32_t Len) {
   for (int32_t i = 0; i < Len; i++) {
-    p[i] = rand() % 256;
+    p[i] = 0;
   }
 }
 
